@@ -14,7 +14,7 @@ console.log("************************************");
 console.log("4 para pesquisar algum livro");
 
 process.stdin.on("data", function (data) {
-  let entrada_usuario = data.toString().trim().;
+  let entrada_usuario = data.toString().trim();
   if (!opcao) {
     opcao = Number(entrada_usuario);
     if (opcao == 1) {
